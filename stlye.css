@@ -32,7 +32,7 @@ body {
     color: white;
     font-family: "Poppins", serif;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 4rem;
 }
 .home h3{
     color: white;
@@ -152,5 +152,13 @@ button:hover {
 
 
 
-
+@media (max-width : 1000px) {
+    :root{
+        font-size: 10px;
+    }
+    .main{
+        flex-direction: column;
+    }
+    
+}
 
